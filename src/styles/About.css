@@ -1,0 +1,42 @@
+.about-container {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 40px 20px;
+}
+
+.section {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 30px;
+    background-color: #F6F6F6;
+}
+
+.section .reverse {
+    flex-direction: row-reverse;
+}
+
+.section-txt {
+    max-width: 400px;
+    padding: 20px;
+}
+
+.section-txt h2 {
+    font-size: 32px;
+    font-weight: 800;
+    margin-bottom: 15px;
+}
+
+.section-txt p {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.section-img img {
+  max-width: 300px;
+  height: auto;
+  border-radius: 8px;
+}
