@@ -4,33 +4,38 @@ import { VscWorkspaceTrusted } from "react-icons/vsc"
 
 const Benefits = () => {
     return (
-        <section className="benefits">
-            <div className="item">
-                <div className="icon-container">
-                    <VscWorkspaceTrusted className='icon' />
+        <section className="benefits-container">
+            <section className="benefits">
+                <div className="item">
+                    <div className="icon-container">
+                        <VscWorkspaceTrusted className='icon' />
+                    </div>
+                    <h3>Garantia de Segurança</h3>
                 </div>
-                <h3>Garantia de Segurança</h3>
-            </div>
 
-            <div className="item">
-                <div className="icon">
-                    <VscWorkspaceTrusted />
+                <div className="item">
+                    <div className="icon">
+                        <VscWorkspaceTrusted />
+                    </div>
+                    <h3>Garantia de Segurança</h3>
                 </div>
-                <h3>Garantia de Segurança</h3>
-            </div>
 
-            <div className="item">
-                <div className="icon">
-                    <VscWorkspaceTrusted />
+                <div className="item">
+                    <div className="icon">
+                        <VscWorkspaceTrusted />
+                    </div>
+                    <h3>Garantia de Segurança</h3>
                 </div>
-                <h3>Garantia de Segurança</h3>
-            </div>
 
-            <div className="item">
-                <div className="icon">
-                    <VscWorkspaceTrusted />
+                <div className="item">
+                    <div className="icon">
+                        <VscWorkspaceTrusted />
+                    </div>
+                    <h3>Garantia de Segurança</h3>
                 </div>
-                <h3>Garantia de Segurança</h3>
+            </section>
+            <div className="button">
+                <button className='btn'>Fale conosco</button>
             </div>
         </section>
     )

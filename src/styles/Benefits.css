@@ -1,10 +1,17 @@
+.benefits-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    padding: 40px 20px;
+    background-color: var(--color-muted);
+}
+
 .benefits {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 35px;
-    padding: 40px 20px;
-    background-color: var(--color-muted);
 }
 
 .item {
@@ -36,4 +43,25 @@
 .item h3 {
     font-size: 16px;
     color: var(--color-dark);
+}
+
+.button {
+    margin-top: 45px;
+}
+
+.btn {
+    text-transform: uppercase;
+    padding: 12px 24px;
+    border: none;
+    margin: 0 8px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    background-color: var(--color-primary);
+    color: var(--color-light);
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: var(--color-secondary);
 }
