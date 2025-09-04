@@ -1,0 +1,51 @@
+.hero {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.title-container h1 {
+    font-size: 40px;
+    color: var(--color-primary);
+}
+
+.title-container p {
+    font-size: 19px;
+    margin-top: 8px;
+}
+
+.buttons-container {
+    margin-top: 32px;
+}
+
+.btn1, 
+.btn2 {
+    padding: 12px 24px;
+    border: none;
+    margin: 0 8px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s
+}
+
+.btn1 {
+    background-color: var(--color-primary);
+    color: var(--color-light);
+}
+
+.btn1:hover {
+    background-color: var(--color-secondary);
+}
+
+.btn2 {
+    background-color: var(--color-accent);
+    color: var(--color-primary);
+}
+
+.btn2:hover {
+    background-color: var(--color-muted);
+}
