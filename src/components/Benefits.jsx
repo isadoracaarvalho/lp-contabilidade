@@ -5,6 +5,7 @@ import { VscWorkspaceTrusted } from "react-icons/vsc"
 const Benefits = () => {
     return (
         <section className="benefits-container">
+            <h2>Por que nos contratar?</h2>
             <section className="benefits">
                 <div className="item">
                     <div className="icon-container">

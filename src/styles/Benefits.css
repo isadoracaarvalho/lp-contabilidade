@@ -3,8 +3,15 @@
     flex-direction: column;
     flex-wrap: nowrap;
     align-items: center;
-    padding: 40px 20px;
-    background-color: var(--color-muted);
+    padding: 60px 20px;
+    background-color: var(--color-dark);
+}
+
+.benefits-container h2 {
+    font-size: 32px;
+    color: var(--color-light);
+    margin-bottom: 40px;
+    text-align: center;
 }
 
 .benefits {
@@ -19,19 +26,19 @@
     height: 150px;
     background-color: var(--color-light);
     border-radius: 15px;
-    box-shadow: 0 4px 6px #0000000d;
+    box-shadow: 0 4px 6px rgba(253, 252, 252, 0.2);
 
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     text-align: center;
-    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    transition: transform 0.2s ease, box-shadow 0.3s ease;
 }
 
 .item:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    transform: translateY(-8px);
+    box-shadow: 0 8px 16px rgba(253, 252, 252, 0.3);
 }
 
 .icon {
