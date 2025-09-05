@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Poppins:wght@400;500;600&display=swap');
+
 .hero {
     height: 100vh;
     display: flex;
@@ -6,18 +8,24 @@
     align-items: center;
     text-align: center;
 
-    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.8)), url(../assets/hero-background-img.jpg) no-repeat center center / cover;
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.8)), url(../assets/hero-background-img.jpg) no-repeat center center / cover;
     background-attachment: fixed;
 }
 
 .title-container h1 {
-    font-size: 40px;
-    color: var(--color-primary);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 44px;
+    color: var(--color-light);
+    font-weight: 700;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.6);
 }
 
 .title-container p {
-    font-size: 19px;
-    margin-top: 8px;
+    font-size: 20px;
+    margin-top: 10px;
+    color: var(--color-accent);
+    font-weight: 500;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
 }
 
 .buttons-container {
