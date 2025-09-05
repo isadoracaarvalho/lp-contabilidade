@@ -2,7 +2,7 @@ import '../styles/ContactForm.css'
 
 const ContactForm = () => {
     return (
-        <section className="section-container">
+        <section id='contact' className="section-container">
             <div className="title">
                 <h1>Entre em contato</h1>
                 <h2>Resposta rápida por email.</h2>
